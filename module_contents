@@ -1,0 +1,50 @@
+1. read image
+2. read video
+3. resize
+4. rescale
+5. blank
+6. paint
+7. rect
+8. circle
+9. line
+10. text
+11. shapes
+
+# 5 ESSENTIAL FUNCTIONS IN OPEN CV
+1. gray
+2. blur
+3. edge cascade
+4. dilate
+5. erode
+
+#IMAGE TRANSFORMATON
+1. translate
+2. reflection x-axis
+3. reflection y-axis
+4. rotate
+5. shrink
+6. enlarge
+7. crop
+8. x-axis shearing
+9. y-axis shearing
+
+1. contours (find and draw)
+2. color spaces
+
+#smoothing and blurring
+1. convolution
+2. averaging
+3. gaussian blur
+4. median
+5. bilateral
+
+#bitwise operators
+1. bitwise and
+2. bitwise or 
+3. bitwise xor
+4. bitwise not
+
+#masking & histogram computation
+1. masking
+2. alpha blurring 
+3. histogram
