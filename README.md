@@ -6,4 +6,4 @@
    # from module2 import function_name
    # function_name()
 5. NOTE: the function names for each respective program is given in module_contents
-6. If any error such as '-215: Assertion Failed' occurs, retype the path address which is basically the part in "img=cv.imread(*path*)
+6. If any error such as '-215: Assertion Failed' occurs, retype the path address which is basically the part in '' in the following code: "img=cv.imread('*path*')"
