@@ -276,11 +276,11 @@ def contours():
     import cv2 as cv
     import numpy as np
     img=cv.imread('Photos/cat.jpg')
-    gray=cv.cvtcolor(img,cv.COLOR_BGR2GRAY)
+    gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
     edge=cv.Canny(gray,30,300)
     contours,hierarchy=cv.findContours(edge,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_NONE)
     cv.imshow('Canny edges after contouring',edge)
-    print('Number of contours found=',+str(len(contours)))
+    print('Number of contours found=',str(len(contours)))
     cv.drawContours(img,contours,-1,(0,255,0),3) #-1 signifies drawing all contours
     cv.imshow('contours',img)
     cv.waitKey(0)
