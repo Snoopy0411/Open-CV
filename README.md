@@ -7,3 +7,4 @@
    # function_name()
 5. NOTE: the function names for each respective program is given in module_contents
 6. If any error such as '-215: Assertion Failed' occurs, retype the path address which is basically the part in ('') in the following code: "img=cv.imread('*path*')"
+7. In histogram computation, if an error comes saying that matplotlib isn't there, go to command prompt (windows+r --> cmd.exe) and type "pip install matplotlib"
