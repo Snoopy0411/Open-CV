@@ -423,7 +423,7 @@ def alpha_blurring():
     cv2.waitKey(0)
     choice = 1
     while (choice):
-        alpha = float(input("Enter alpha value: "))
+        alpha = float(input("Enter alpha value(from 0-1): "))
         dst = cv2.addWeighted(img1, alpha , img2, 1-alpha, 0)
         cv2.imwrite('alpha_mask_.png', dst)
         img3 = cv2.imread('alpha_mask_.png')
